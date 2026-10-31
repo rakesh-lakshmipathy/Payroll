@@ -49,7 +49,7 @@ internal fun PayrollApp(vm: PayrollViewModel) {
     val currentEntry by navController.currentBackStackEntryAsState()
     val payrolls by vm.payrolls.collectAsStateWithLifecycle()
     val error by vm.error.collectAsStateWithLifecycle()
-    var pendingDraft by rememberSaveable(stateSaver = PayrollSaver) { mutableStateOf(null) }
+    var pendingDraft by rememberSaveable(stateSaver = PayrollSaver) { mutableStateOf<Payroll?>(null) }
 
     // The list is the root destination. Back here must close the activity, not empty the NavHost.
     BackHandler(enabled = currentEntry?.destination?.route == PayrollRoute.LIST) {
