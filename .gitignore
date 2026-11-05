@@ -14,7 +14,7 @@ build/
 # Generated binaries and diagnostics
 *.apk
 *.aab
-!releases/HourlyPayroll-debug.apk
+!releases/PayrollManager-debug.apk
 *.hprof
 *.log
 output-metadata.json
@@ -29,9 +29,6 @@ captures/
 # Locally exported test reports
 Test Results - *.html
 
-# Obsolete Room schemas from earlier package names
-app/schemas/com.weshare.payroll.data.local.PayrollDatabase/
-app/schemas/com.weshare.payroll.feature.payroll.data.local.PayrollDatabase/
 
 # OS files
 .DS_Store

@@ -2,6 +2,7 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
+    alias(libs.plugins.kotlin.serialization)
     id("com.google.dagger.hilt.android")
     alias(libs.plugins.google.services)
     alias(libs.plugins.firebase.crashlytics)
@@ -9,8 +10,8 @@ plugins {
 }
 
 android {
-    namespace = "com.hourly.app"
-    compileSdk = 36
+    namespace = "com.payrollmanager.app"
+    compileSdk = 37
 
     kotlin {
         jvmToolchain(21)
@@ -24,12 +25,12 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.hourly.app"
+        applicationId = "com.payrollmanager.app"
         minSdk = 24
-        targetSdk = 36
+        targetSdk = 37
         versionCode = 1
         versionName = "1.0"
-        testInstrumentationRunner = "com.hourly.app.HiltTestRunner"
+        testInstrumentationRunner = "com.payrollmanager.app.HiltTestRunner"
     }
 
     buildTypes {
@@ -60,6 +61,7 @@ dependencies {
     implementation(libs.androidx.compose.material3)
     implementation(libs.androidx.compose.material.icons.extended)
     implementation(libs.androidx.navigation.compose)
+    implementation(libs.kotlinx.serialization.json)
     implementation(libs.androidx.room.runtime)
     implementation(libs.androidx.room.ktx)
     implementation(libs.androidx.work.runtime.ktx)

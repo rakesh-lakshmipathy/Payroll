@@ -1,5 +1,5 @@
 <resources>
-    <style name="Theme.WesurePayroll" parent="android:style/Theme.Material.Light.NoActionBar">
+    <style name="Theme.PayrollManager" parent="android:style/Theme.Material.Light.NoActionBar">
         <item name="android:windowSplashScreenBackground">@color/payroll_blue</item>
         <item name="android:windowSplashScreenAnimatedIcon">@drawable/ic_payroll_foreground</item>
         <item name="android:windowSplashScreenIconBackgroundColor">@color/payroll_blue</item>

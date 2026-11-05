@@ -187,7 +187,7 @@ These files are retained as evidence from a specific run. The Gradle commands ab
 
 ## Download the demo APK
 
-[Download Payroll Management debug APK](https://github.com/rakesh-lakshmipathy/Payroll/raw/refs/heads/main/releases/HourlyPayroll-debug.apk)
+[Download HourlyPayroll debug APK](https://github.com/rakesh-lakshmipathy/WeSure/raw/refs/heads/main/releases/HourlyPayroll-debug.apk)
 
 This APK is a debug build provided for assessment and demonstration. Android may ask for permission to install apps from the browser or file manager used to open it.
 
@@ -206,7 +206,7 @@ SHA-256:
 
 The project compiles against API 36 and uses JDK 21.
 
-Firebase configuration is intentionally not committed. To enable Analytics and Crashlytics, register an Android app with package name `com.hourly.app` in Firebase and place the downloaded configuration at `app/google-services.json`.
+Firebase configuration is intentionally not committed. To enable Analytics and Crashlytics, register an Android app with package name `com.payrollmanager.app` in Firebase and place the downloaded configuration at `app/google-services.json`.
 
 ## Release build
 

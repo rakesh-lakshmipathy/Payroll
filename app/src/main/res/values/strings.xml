@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Wesure</string>
+    <string name="app_name">Payroll Manager</string>
     <string name="payroll_list_title">Payrolls</string>
     <string name="sync">Sync</string>
     <string name="new_payroll">New</string>
@@ -20,7 +20,7 @@
     <string name="sync_payrolls_description">Synchronize payrolls</string>
     <string name="review_payroll">Review payroll</string>
     <string name="employees">Employees</string>
-    <string name="tax_rule" formatted="false">Taxes are 5% only for non-exempt wages above 1,000.</string>
+    <string name="tax_rule" formatted="false">Taxes are 5% only for non-exempt wages above 800.</string>
     <string name="full_name">Full name</string>
     <string name="wages">Wages</string>
     <string name="tax_exempt">Tax exempt</string>
