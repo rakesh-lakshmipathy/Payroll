@@ -1,4 +1,4 @@
-# WeSure Payroll Assessment
+#  Payroll Management App - POC
 
 An offline-first Android payroll prototype built with Kotlin and Jetpack Compose.
 
@@ -20,7 +20,7 @@ The app supports creating, reviewing, editing, and deleting payrolls. Payroll da
 
 The accelerated recording below demonstrates the complete create, review, edit, and delete payroll workflow.
 
-![WeSure payroll workflow demo](docs/demo/payroll-flow.gif)
+![ Payroll Management App workflow demo](docs/demo/payroll-flow.gif)
 
 ## Business rule
 
@@ -187,7 +187,7 @@ These files are retained as evidence from a specific run. The Gradle commands ab
 
 ## Download the demo APK
 
-[Download HourlyPayroll debug APK](https://github.com/rakesh-lakshmipathy/WeSure/raw/refs/heads/main/releases/HourlyPayroll-debug.apk)
+[Download Payroll Management debug APK](https://github.com/rakesh-lakshmipathy/WeSure/raw/refs/heads/main/releases/HourlyPayroll-debug.apk)
 
 This APK is a debug build provided for assessment and demonstration. Android may ask for permission to install apps from the browser or file manager used to open it.
 
