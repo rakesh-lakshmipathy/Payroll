@@ -1,3 +1,4 @@
+
 name: Android CI
 
 on:
@@ -7,10 +8,9 @@ on:
   pull_request:
     branches: ["main"]
 
-# Cancel outdated runs for the same branch or PR
 concurrency:
   group: android-ci-${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 permissions:
   contents: read
@@ -34,8 +34,13 @@ jobs:
       - name: Grant execute permission
         run: chmod +x gradlew
 
+      - name: Check Java and Gradle versions
+        run: |
+          java -version
+          ./gradlew --version
+
       - name: Run unit tests
-        run: ./gradlew test
+        run: ./gradlew test --stacktrace
 
       - name: Build Android project
-        run: ./gradlew assembleDebug
+        run: ./gradlew assembleDebug --stacktrace
