@@ -187,7 +187,7 @@ These files are retained as evidence from a specific run. The Gradle commands ab
 
 ## Download the demo APK
 
-[Download Payroll Management debug APK](https://github.com/rakesh-lakshmipathy/WeSure/raw/refs/heads/main/releases/HourlyPayroll-debug.apk)
+[Download Payroll Management debug APK](https://github.com/rakesh-lakshmipathy/Payroll/raw/refs/heads/main/releases/HourlyPayroll-debug.apk)
 
 This APK is a debug build provided for assessment and demonstration. Android may ask for permission to install apps from the browser or file manager used to open it.
 
