@@ -44,3 +44,18 @@ jobs:
 
       - name: Build Android project
         run: ./gradlew assembleDebug --stacktrace
+     
+      - name: Name APK with timestamp
+        run: |
+          TIMESTAMP=$(date +'%Y-%m-%d-%H-%M-%S')
+          APK_NAME="PayrollApp-${TIMESTAMP}.apk"
+
+          cp app/build/outputs/apk/debug/app-debug.apk "$APK_NAME"
+
+          echo "APK_NAME=$APK_NAME" >> $GITHUB_ENV
+          
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: android-debug-apk
+          path: app/build/outputs/apk/debug/app-debug.apk
