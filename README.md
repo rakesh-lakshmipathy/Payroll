@@ -1,4 +1,4 @@
-#  Payroll Management App - POC
+#  A Simple Payroll Management App
 
 An offline-first Android payroll prototype built with Kotlin and Jetpack Compose.
 
