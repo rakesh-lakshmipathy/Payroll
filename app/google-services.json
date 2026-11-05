@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "795843091983",
+    "project_id": "payroll-manager-1baef",
+    "storage_bucket": "payroll-manager-1baef.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:795843091983:android:db7f8eebde70626ee58d7a",
+        "android_client_info": {
+          "package_name": "com.payrollmanager.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHwDkdg_l0OaNHkWSKG5iEkUvCvCknrEo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
